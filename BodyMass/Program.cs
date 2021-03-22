@@ -35,7 +35,9 @@ namespace BodyMass
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("you are overweight. your BMI is "+bmi);
             }
-            
+
+            Console.Write("press any key to close program");
+            Console.ReadLine();
 
         }
     }
